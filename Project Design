@@ -1,20 +1,25 @@
 #Project Design
 A broad outline of the theoretical workflow is summarised below:
- <strong>.1.Data Exploration & Cleaning</strong>
+.1.Data Exploration & Cleaning
 ○ Explore the data
 ○ Clean the raw input datasets (missing values, features to keep or drop, revisions of data formats)
 ○ Create a function with the pre-processing steps
+
 2.Data Visualisation 
 ○Visualise the data
 ○Identify correlations between features or other data-specific patterns
-**3.Feature Engineering**
+
+3.Feature Engineering
 ○Make informed decisions about features to drop/keep with a PCA implementation
+
 4.Model Selection
 ○ Experiment with different algorithms in Step 1 (unsupervised learning, e.g. K- Means Clustering)
 ○Experiment with different algorithms in Step 2 (supervised learning, e.g. DecisionTreeRegressor)
 ○Select the best-suited algorithms for the problem
+
 5.Model Training & Tuning
 ○Train the model defined previously
 ○Implement Hyperparameter-Tuning strategies (e.g. using a range of values instead of one value for hyperparameters, strategy to counteract the effect of class imbalance in the dataset of the supervised learning algorithm…)
+
 6.Model Testing/Predictions
 ○Test the model with the testing data against the benchmark model and with the evaluation metrics we defined earlier.
