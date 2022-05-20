@@ -1,6 +1,6 @@
 #Project Design
-**A broad outline of the theoretical workflow is summarised below:**
-**1.Data Exploration & Cleaning**
+A broad outline of the theoretical workflow is summarised below:
+ <strong>.1.Data Exploration & Cleaning</strong>
 ○ Explore the data
 ○ Clean the raw input datasets (missing values, features to keep or drop, revisions of data formats)
 ○ Create a function with the pre-processing steps
